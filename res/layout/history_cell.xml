@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/history_cell_background" >
+
+    <!-- 标题 -->
+    <TextView
+        android:id="@+id/topic_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="5dp"
+        android:shadowColor="#FF525252"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp" />
+
+     <!-- 信息元素 -->
+     
+    <LinearLayout
+        android:id="@+id/topic_meta_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topic_title"
+        android:orientation="horizontal" >
+
+        <!-- 时间 -->
+        <TextView
+            android:id="@+id/topic_meta_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:padding="4dp"
+            android:background="@drawable/meta_time_background"
+            android:textSize="12sp" />
+        
+        <!-- 得分 -->
+         <TextView
+            android:id="@+id/topic_meta_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/meta_score_background"
+            android:textSize="12sp" />
+         
+         <!-- 正确题目数 -->
+          <TextView
+            android:id="@+id/topic_meta_correct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/meta_correct_background"
+            android:textSize="12sp" />
+          
+          <!-- 错误题目数 -->
+          <TextView
+            android:id="@+id/topic_meta_mistake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/meta_mistake_background"
+            android:textSize="12sp" />
+          
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdgeLength="0px"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- 题号 -->
+
+        <TextView
+            android:id="@+id/topic_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/topic_index_background"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:textColor="#FFFFFFFF" />
+
+        <!-- 题目内容 -->
+
+        <TextView
+            android:id="@+id/topic_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topic_index"
+            android:background="@drawable/topic_content_background"
+            android:lineSpacingExtra="5sp"
+            android:padding="5dp"
+            android:textColor="#FF111111" />
+
+        <!-- 题目图片展示 com.lurencun.android.support.v2.widget.DoubleTap -->
+
+        <ImageView
+            android:id="@+id/topic_imgs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/topic_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"/>
+
+        <!-- 答案标题 -->
+
+        <TextView
+            android:id="@+id/topic_answer_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topic_imgs"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/answer_title"
+            android:textColor="#FF484848" />
+
+        <!-- 答案区域 -->
+
+        <LinearLayout
+            android:id="@+id/topic_answer_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topic_answer_title"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <!-- 收藏和查看答案 -->
+
+        <RelativeLayout
+            android:id="@+id/topic_answer_action"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topic_answer_layout"
+            android:layout_marginTop="10dp"
+            android:gravity="right" >
+
+            <Button
+                android:id="@+id/topic_answer_add_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/topic_answer_view"
+                android:background="@drawable/topic_button_background"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/add_favourite"
+                android:textColor="#FFFFFFFF" />
+
+            <Button
+                android:id="@+id/topic_answer_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/topic_button_background"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/view_answer"
+                android:textColor="#FFFFFFFF" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

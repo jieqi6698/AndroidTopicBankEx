@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">题库宝典</string>
+    <string name="answer_title">答案选项</string>
+    <string name="add_favourite">添加收藏</string>
+    <string name="view_answer">查看答案</string>
+    
+    <string name="search_hint">输入关键字搜索</string>
+
+</resources>

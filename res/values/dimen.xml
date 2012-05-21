@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="HeaderPadding">5dp</dimen>
+    <dimen name="HeaderFontSize">20sp</dimen>
+    <dimen name="FooterPadding">5dp</dimen>
+    <dimen name="FooterFontSize">14sp</dimen>
+    <dimen name="FooterSingleButtonPadding">80dp</dimen>
+    <dimen name="FooterDoubleButtonPadding">60dp</dimen>
+    
+    <dimen name="MenuFontSize">16sp</dimen>
+    <dimen name="MenuIconWidth">40dp</dimen>
+    <dimen name="MenuItemMargin">10dp</dimen>
+    <dimen name="MenuItemPadding">1dp</dimen>
+    <dimen name="MenuContainerPadding">15dp</dimen>
+    
+    <dimen name="SmallButtonPadding">10dp</dimen>
+    <dimen name="ActiveButtonFontSize">14sp</dimen>
+    
+    <dimen name="ListItemTitlePaddingTop">5dp</dimen>
+    <dimen name="ListItemTitlePaddingLeft">5dp</dimen>
+    <dimen name="ListItemTitlePaddingRight">5dp</dimen>
+    <dimen name="ListItemTitlePaddingBottom">0dp</dimen>
+    
+    <dimen name="ListItemDescPaddingTop">0dp</dimen>
+    <dimen name="ListItemDescPaddingLeft">5dp</dimen>
+    <dimen name="ListItemDescPaddingRight">5dp</dimen>
+    <dimen name="ListItemDescPaddingBottom">5dp</dimen>
+    
+    <dimen name="ListItemIconPaddingTop">0dp</dimen>
+    <dimen name="ListItemIconPaddingLeft">5dp</dimen>
+    <dimen name="ListItemIconPaddingRight">5dp</dimen>
+    <dimen name="ListItemIconPaddingBottom">0dp</dimen>
+    
+    <dimen name="ListItemTitleFontSize">14sp</dimen>
+    <dimen name="ListItemDescFontSize">12sp</dimen>
+    
+    <dimen name="FooterButtonPadding">8dp</dimen>
+	
+    <dimen name="RegisterCodeNamePadding">15dp</dimen>
+    <dimen name="RegisterCodeMargin">10dp</dimen>
+    <dimen name="RegisterCodeBlank">20dp</dimen>
+    <dimen name="RegisterCodeButtonPadding">60dp</dimen>
+    <dimen name="RegisterCodeNameFontSize">8pt</dimen>
+    <dimen name="RegisterIntroLineHeight">5sp</dimen>
+    <dimen name="RegisterCodeCodeFontSize">16pt</dimen>
+    <dimen name="RegisterCodeIntroFontSize">15sp</dimen>
+    
+    <dimen name="ProgressPadding">10dp</dimen>
+    <dimen name="ProgressContentLineHeight">5sp</dimen>
+    <dimen name="ProgressContentPadding">5dp</dimen>
+    <dimen name="ProgressContentFontSize">14sp</dimen>
+    
+</resources>

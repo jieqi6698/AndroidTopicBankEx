@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/result_cell_background" >
+
+    <!-- 标题 -->
+    <TextView
+        android:id="@+id/result_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="3dp"
+        android:textColor="#FF555555"
+        android:textSize="16sp" />
+
+    <!-- 摘要 -->
+    <TextView
+        android:id="@+id/result_summary"
+        android:layout_below="@id/result_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:paddingLeft="3dp"
+        android:textColor="#FF666666"
+        android:textSize="12sp" />
+
+</RelativeLayout>

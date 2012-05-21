@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_config">
+        <!-- value 为0，则进行搜索 -->
+        <item >{icon:"icon_0.png",value:"0",title:"搜索题库",activity=".ui.SearchActivity"}</item>
+        <item >{icon:"icon_2.png",value:"1",title:"考试题库",activity=".ui.CategoryActivity"}</item>
+        <item >{icon:"icon_3.png",value:"1",title:"收藏夹",activity=".ui.CategoryActivity"}</item>
+        <item >{icon:"icon_4.png",value:"1",title:"错题收集",activity=".ui.CategoryActivity"}</item>
+        <item >{icon:"icon_5.png",value:"1",title:"历史记录",activity=".ui.HistoryActivity"}</item>
+        <item >{icon:"icon_6.png",value:"1",title:"考试信息",activity=".ui.CategoryActivity"}</item>
+        
+    </string-array>
+
+</resources>
