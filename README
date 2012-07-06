@@ -1,3 +1,7 @@
 项目可以运行，但数据部分没有完成。
 
 外引的Jar包，可以参见本人的其它项目。具体见：https://github.com/chenyoca
+
+另，说明一下，Android Support V4这个Jar包是Android SDK里的包，在$AndroidSDK\extras\android\support\v4文件夹里
+
+添加这个包的引用，可以在SDK 1.6里使用SDK 2.2的一些特性和控件。
