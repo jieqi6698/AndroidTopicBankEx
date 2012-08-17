@@ -8,8 +8,8 @@ import org.json.JSONObject;
 
 import android.content.Context;
 
-import com.lurencun.android.sdk.res.AssetsReader;
-import com.lurencun.android.sdk.res.ResJSONHandler;
+import com.lurencun.android.toolkit.res.AssetsReader;
+import com.lurencun.android.toolkit.res.ResJSONHandler;
 import com.lurencun.android.topicbank.entity.MenuEntity;
 
 /**

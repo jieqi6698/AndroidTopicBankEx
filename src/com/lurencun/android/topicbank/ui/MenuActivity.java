@@ -8,9 +8,9 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
-import com.lurencun.android.sdk.util.ActivitySwitcher;
 import com.lurencun.android.support.ui.BaseActivity;
 import com.lurencun.android.support.widget.CommonAdapter;
+import com.lurencun.android.toolkit.util.ActivitySwitcher;
 import com.lurencun.android.topicbank.AppSetting;
 import com.lurencun.android.topicbank.R;
 import com.lurencun.android.topicbank.entity.MenuEntity;

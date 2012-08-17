@@ -20,7 +20,7 @@ import java.util.List;
 
 import android.content.Context;
 
-import com.lurencun.android.sdk.HasContext;
+import com.lurencun.android.toolkit.HasContext;
 import com.lurencun.android.topicbank.entity.HistoryEntity;
 
 /**

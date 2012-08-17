@@ -13,9 +13,9 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.lurencun.android.sdk.util.ActivitySwitcher;
 import com.lurencun.android.support.ui.BackUIActivity;
 import com.lurencun.android.support.widget.CommonAdapter;
+import com.lurencun.android.toolkit.util.ActivitySwitcher;
 import com.lurencun.android.topicbank.AppSetting;
 import com.lurencun.android.topicbank.R;
 import com.lurencun.android.topicbank.entity.CategoryEntity;

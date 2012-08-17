@@ -35,9 +35,9 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.lurencun.android.sdk.res.AssetsReader;
-import com.lurencun.android.sdk.util.BitmapScaleUitl;
 import com.lurencun.android.support.widget.CommonAdapter;
+import com.lurencun.android.toolkit.res.AssetsReader;
+import com.lurencun.android.toolkit.util.BitmapScaleUitl;
 import com.lurencun.android.topicbank.AppSetting;
 import com.lurencun.android.topicbank.R;
 import com.lurencun.android.topicbank.entity.AnswerEntity;
